@@ -1,0 +1,65 @@
+.tour-cards {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    margin-top: 2rem;
+    background-color: lightcyan;
+    box-sizing: border-box;
+}
+
+.tour-cards img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-top-right-radius: var(--radius);
+    border-top-left-radius: var(--radius);
+}
+
+
+.paragraphs {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-around;
+}
+
+.price {
+    
+}
+
+.info {
+    padding: 1rem;
+    font-size: 14px;
+    text-align: left;
+}
+
+.read-more {
+    display: flex;
+    width: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.not-interested {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 30%;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.not-interested:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+
+.tour-cards button:first-child {
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    color: blue;
+}

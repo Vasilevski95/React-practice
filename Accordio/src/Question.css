@@ -1,0 +1,32 @@
+.title {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+.divs {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.info {
+    width: 400px;
+    font-size: 15px;
+}
+
+.dugme {
+    border-radius: 50%;
+    scale: 0.7;
+}
+
+.dugme svg {
+    width: 20px;
+    height: 20px;
+}
+
+

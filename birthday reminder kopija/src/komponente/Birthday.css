@@ -1,0 +1,28 @@
+.rodjendan {
+    border-radius: 20px;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    background: lightskyblue;;
+    width: 500px;
+    height: 800px;
+}
+
+.dugme {
+    position: relative;
+    margin-top: 5rem;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    background: lightcoral;
+    transition: 0.4s ease;
+}
+
+.dugme:hover {
+    background-color: red;
+    cursor: pointer;
+    scale: 1.1;
+}
